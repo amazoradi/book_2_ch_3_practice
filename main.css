@@ -1,6 +1,12 @@
 body {
   background-color: azure;
 }
+.canidate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 
 img.headShot {
     height: auto;
@@ -9,16 +15,21 @@ img.headShot {
     max-height: 300px;
     padding: 20px;
 }
-section.basicInfo {
+
+
+/* section.basicInfo {
     padding: 50px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 .theInfo {
-    padding: 25px;
-    margin: 60px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+   display: flex;
+   justify-content: center;
 }
+
+/*.committees {
+  display: flex;
+  justify-content: flex-start;
+  align-self: right;
+} */
