@@ -26,6 +26,9 @@ img.headShot {
 .theInfo {
    display: flex;
    justify-content: center;
+   padding: 20px;
+   background-color: blueviolet;
+   border: 5px solid red;
 }
 
 /*.committees {
