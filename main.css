@@ -7,32 +7,56 @@ body {
   justify-content: space-evenly;
 }
 
-
 img.headShot {
     height: auto;
     width: auto;
     max-width: 300px;
     max-height: 300px;
     padding: 20px;
+    margin: 0px 0px 0px 55px; 
 }
 
-
-/* section.basicInfo {
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
-}
 .theInfo {
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   align-content: center;
+   justify-content: flex-end;
    padding: 20px;
-   background-color: blueviolet;
-   border: 5px solid red;
+  
 }
 
-/*.committees {
+h2 {
+    display: flex;
+    justify-content: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.secondaryInfo {
+  padding: 80px;
+  border-top: 10px;
+  
+}
+
+.legislation__links {
+  padding: 20px;
+  border: 20px;
+}
+
+.legislation__links h3 {
   display: flex;
-  justify-content: flex-start;
-  align-self: right;
-} */
+  justify-content: center;
+}
+
+.legislation__links li {
+  padding: 0px 30px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.committees h3 {
+  display: flex;
+  justify-content: center;
+}
